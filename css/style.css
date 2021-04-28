@@ -170,8 +170,10 @@ footer
 
 .foot
 {
-    width: 80%;
+    width: 1280px;
     margin: auto;
+    padding-top: 50px;
+
 }
 .testo2
 {
@@ -197,7 +199,7 @@ color: white;
 
 hr
 {
-    width: 80%;
+    width: 1280px;
     margin: auto;
 }
 
@@ -207,22 +209,25 @@ hr
     color: cornflowerblue;
 }
 
-.foot
+select
 {
-    padding: 50px 100px 100px 50px;
+    display: block;
+    margin: auto;
 }
-
 
 .pulsante-logout 
 {
     width: 50%;
 }
 
-.pulsante-logout li button
+.pulsante-logout button
 {
     padding: 5px;
     border-radius: 50px;
     border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .pulsante-logout li 
@@ -233,4 +238,9 @@ hr
 .margine
 {
     padding-top:200px;
+}
+
+.relative
+{
+    position: relative;
 }
