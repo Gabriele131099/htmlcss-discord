@@ -1,0 +1,236 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.clearfix::after
+{
+    content: " ";
+    display: table;
+    clear: both;
+
+}
+ul
+{
+    display: inline-block;
+    list-style: none;
+}
+
+.fl
+{
+    float: left;
+}
+
+.fr
+{
+    float: right;
+}
+.logo
+{
+    width: 25%;
+    height: 60px;
+    padding-top: 2px;
+}
+
+.menu
+{
+    width: 50%;
+    height: 60px;
+    color: white;
+}
+
+nav .menu li{
+margin-left: 20px;
+display: inline-block;
+padding-top:7px ;
+
+}
+
+.contenitore button{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+}
+
+.colora-bottoni
+{
+    background-color: black;
+    color: white;
+}
+.contenitore button {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+nav .pulsante-login 
+{
+    width: 25%;
+    height: 60px;
+}
+
+nav .pulsante-login li button
+{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+header
+{
+    background-image: url(../img/jumbo.png);
+    height: 40vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+nav
+{
+    width: 80%;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.centra
+{
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.contenitore
+{
+    width: 49%;
+    text-align: center;
+
+
+}
+
+.contenitore p,h1
+{
+    width: 450px;
+    word-wrap: break-word;
+    margin: auto;
+    padding-top: 35px;
+}
+
+main
+{
+    width: 1280px;
+    margin: auto;
+}
+
+.grigio
+{
+background-color:rgba(128, 128, 128, 0.1 );
+text-align: center;
+padding-bottom: 50px;
+}
+
+.grigio h1,p
+{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.grigio h2
+{
+    background-image: url(../img/stars.svg);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.grigio button
+{
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(62, 110, 199, 0.5);
+    border: none;
+}
+
+footer
+{
+    background-color: rgb(27, 27, 27);
+    height: 50vh;
+}
+
+.foot
+{
+    width: 80%;
+    margin: auto;
+}
+.testo2
+{
+    font-size: 24px;
+color: aliceblue;    
+}
+.foot ul
+{
+    padding-left: 80px;
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    float: left;
+
+}
+
+.foot li
+{
+padding-bottom: 10px;
+color: white;
+
+}
+
+hr
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+.foot ul li:first-child
+{
+    color: cornflowerblue;
+}
+
+.foot
+{
+    padding: 50px 100px 100px 50px;
+}
+
+
+.pulsante-logout 
+{
+    width: 50%;
+}
+
+.pulsante-logout li button
+{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+}
+
+.pulsante-logout li 
+{
+    float: right;
+}
+
+.margine
+{
+    padding-top:200px;
+}
